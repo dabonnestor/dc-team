@@ -1,0 +1,12 @@
+{
+  "name": "team",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "rm -rf dist && parcel *.html",
+    "build": "rm -rf build && parcel build *.html --dist-dir build"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1"
+  }
+}

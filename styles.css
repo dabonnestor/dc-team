@@ -1,0 +1,162 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+figure {
+  margin: 0;
+}
+
+.container {
+  max-width: 102.4rem;
+  margin: 6.4rem auto;
+  padding: 1.6rem;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    margin: 3.2rem auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0;
+  }
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+}
+
+@media (max-width: 768px) {
+  .header {
+    grid-template-columns: 1fr;
+  }
+}
+
+.header .header__col-1 h1 {
+  font-family: "PT Serif", serif;
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.025em;
+}
+
+.header .header__col-2 h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.header .header__col-2 p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  max-width: 43.9rem;
+  margin-top: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .header .header__col-2 p {
+    font-size: 1.4rem;
+  }
+}
+
+.main {
+  display: grid;
+  gap: 3.2rem 1.6rem;
+  grid-template-columns: repeat(3, 23.8rem);
+  justify-content: space-between;
+  margin-top: 6.4rem;
+}
+
+@media (max-width: 800px) {
+  .main {
+    grid-template-columns: repeat(2, minmax(13.8rem, 1fr));
+    margin-top: 4.8rem;
+  }
+}
+
+.main .main__col:nth-of-type(3n - 1) {
+  margin-top: 6.4rem;
+}
+
+@media (max-width: 800px) {
+  .main .main__col:nth-of-type(3n - 1) {
+    margin-top: 0;
+  }
+
+  .main .main__col:nth-of-type(2n) {
+    margin-top: 6.4rem;
+  }
+}
+
+.card {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.card .card__title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 1.6rem;
+}
+
+@media (max-width: 768px) {
+  .card .card__title {
+    font-size: 1.4rem;
+  }
+}
+
+.card .card__subtitle {
+  font-family: "PT Serif", serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  writing-mode: vertical-lr;
+}
+
+@media (max-width: 768px) {
+  .card .card__subtitle {
+    font-size: 1rem;
+  }
+}
+
+.image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+}
+
+.footer {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  color: #a9a9a9;
+  margin-top: 6.4rem;
+}
