@@ -58,7 +58,7 @@ figure {
   }
 }
 
-.header .header__col-1 h1 {
+.header__col-1 h1 {
   font-family: "PT Serif", serif;
   font-size: 3.6rem;
   font-weight: 700;
@@ -66,13 +66,13 @@ figure {
   letter-spacing: -0.025em;
 }
 
-.header .header__col-2 h2 {
+.header__col-2 h2 {
   font-size: 1.8rem;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.header .header__col-2 p {
+.header__col-2 p {
   font-size: 1.8rem;
   font-weight: 400;
   max-width: 43.9rem;
@@ -80,7 +80,7 @@ figure {
 }
 
 @media (max-width: 768px) {
-  .header .header__col-2 p {
+  .header__col-2 p {
     font-size: 1.4rem;
   }
 }
@@ -100,16 +100,16 @@ figure {
   }
 }
 
-.main .main__col:nth-of-type(3n-1) {
+.main__col:nth-of-type(3n-1) {
   margin-top: 6.4rem;
 }
 
 @media (max-width: 800px) {
-  .main .main__col:nth-of-type(3n-1) {
+  .main__col:nth-of-type(3n-1) {
     margin-top: 0;
   }
 
-  .main .main__col:nth-of-type(2n) {
+  .main__col:nth-of-type(2n) {
     margin-top: 6.4rem;
   }
 }
@@ -119,19 +119,19 @@ figure {
   gap: 0.8rem;
 }
 
-.card .card__title {
+.card__title {
   font-size: 1.8rem;
   font-weight: 600;
   margin-top: 1.6rem;
 }
 
 @media (max-width: 768px) {
-  .card .card__title {
+  .card__title {
     font-size: 1.4rem;
   }
 }
 
-.card .card__subtitle {
+.card__subtitle {
   font-family: "PT Serif", serif;
   font-size: 1.2rem;
   font-weight: 400;
@@ -140,7 +140,7 @@ figure {
 }
 
 @media (max-width: 768px) {
-  .card .card__subtitle {
+  .card__subtitle {
     font-size: 1rem;
   }
 }
