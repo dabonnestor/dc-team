@@ -17,13 +17,13 @@ yarn
 Run development server
 
 ```bash
-yarn run dev
+yarn dev
 ```
 
 Run production build
 
 ```bash
-yarn run build
+yarn build
 ```
 
 ## Contributing
